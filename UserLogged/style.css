@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    background: white;
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+}
+
+ .topnav .staff, .topnav .log {color: red;}
+
+
+    
+    .topnav .log:hover {background-color: black;}
+
+
+#colt, .move, .left, .right {display: none;}
+
+
+#indexH1, li, #main_image{display: none;}
+
+#topLeft img, #topRight img, #column img, #colu img, #col img, #golumn img, #golum img, #golun img, #golu img, #gol img {width: 80%; height: auto;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+    margin-top: 15px;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+    text-transform: uppercase; 
+    font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ #Footerdiv .act{
+  color: #4CAF50;
+  
+}
+
+
+
+#Footerdiv .staff{color: red;}
+
+#topRight a, #topLeft a{text-decoration: none; color: black;}
+
+#topRight h4, #topLeft h4 { font-size: 20px;  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";  margin-top: 1px;    }
+
+#searchfield {
+                background: white;
+                border: solid 1px #999;
+                border-radius: 3px;
+
+                padding: 4px 5px 4px 5px;
+                width: 15em;
+                transition: all .3s;
+            }
+
+            #searchfield:focus {
+                width: 20em;
+                background-color: #fff;
+                border-color: black;
+
+               
+            }
+
+#grip, #Drip{ font-size: 1.4em; font-weight: bold; font-family: Constantia, "Lucida Bright", "DejaVu Serif",Georgia, "serif"; margin-top: 70px; 
+}
+	#head{
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+background-color: darkslategrey;
+color: white;
+
+}
+
+#clock, .rightnav {display: none;}
+
+.gol{margin-top: 50px;}
+
+#imag{margin-top: -10px;}  
+body{background-color: white;}
+
+#Footerdiv a{text-decoration: none; font-size: 20px; color: white; text-transform: uppercase; font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";}
+h3{font-size: 20px; font-family: Constantia, "Lucida Bright", "DejaVu Serif",Georgia; margin-top: 60px;}
+
+    #Footerdiv{background-color: darkslategrey; margin-top: 260px;}
+
+#Footerdiv a:hover {background-color: #ddd;
+  color: black;}
+
+
+
+      
+
+ .corgo, .chim, .chem, .cigi, .cosh,.camel, .cash, .casm, .columbu, .cord, .cardinal, .cardu, .cardiy, .cardim, .cardics, .cardio, .carding, .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+    margin-top: 50px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+   .corgo button, .chim button, .chem button, .cigi button, .cosh button, .camel button, .cash button, .casm button, .columbu button, .cord button, .cardinal button, .cardu button, .cardiy button, .cardim button, .cardics button, .cardio button, .carding button, .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+  .corgo button:hover, .chim button:hover, .chem button:hover, .cigi button:hover, .cosh button:hover, .camel button:hover, .cash button:hover, .casm button:hover, .columbu button:hover, .cord button:hover, .cardinal button:hover .cardu button:hover, .cardiy button:hover, .cardim button:hover, .cardics button:hover, .cardio button:hover, .carding button:hover, .card button:hover {
+  opacity: 0.7;
+}   
+        
+        
+        
+        
+          
+.ripp a, .gym a, .brew a, .row a{text-decoration: none; color: black; text-transform: uppercase; font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";
+font-size: 20px;}
+
+ 
+
+.ripp, .gym, .brew, .row{border: solid 1px #999; 
+    margin: auto;
+    width: 50%;
+    background-color: blanchedalmond;
+    margin-top: 50px;}
+        
+        .red{text-decoration: line-through; color: black;}
+
+
+@media only screen and (min-width: 992px) {
+    .grid-container {
+         display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        
+    }
+    .topnav, #Footerdiv{display: none;}
+    
+    .move, .right, .left, .rightnav {display: block;}
+    .rightnav .act, #Footerdiv .act{color: black;}
+    
+    
+    .rightnav a{
+            display: inline block;
+padding: 10px; font-weight: bold;
+text-decoration: none; color: white; text-transform: uppercase; font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";
+font-size: 20px;
+}
+    
+   .rightnav, #logo, #head{grid-column: 1/5;}
+    #searchfield{margin-top: 10px;}
+    h3 {color: darkkhaki;}
+    .rightnav {border: 15px solid grey; background-color: grey; }
+    
+    #indexH1{margin-top: -480px;}
+    
+    #slideshow{grid-column: 1/5;}
+    
+    #main_image{width: 100%;}
+    
+  
+    #topLeft h4, #topRight h4 {font-size: 30px;}
+    
+    #topLeft{grid-column: 1/3; }
+    #topRight{grid-column: 3/5; }
+    #topRight img, #topLeft img {width: 90%;}
+    
+   #grip, #Drip {grid-column: 1/5; font-size: 40px;}
+    
+    #colt {display: block;}
+  
+     #column{grid-column: 1/2;}
+    #colu{grid-column: 2/3;}
+    #col{grid-column: 3/4;}
+    #colt{grid-column: 4/5;}
+    
+   #colt img, #column img, #colu img, #col img {width: 100%; height: 100%;}
+    
+     .golumn{grid-column: 1/3;}
+    .golum{grid-column: 3/5;}
+    .golun{grid-column: 1/3;}
+    .golu{grid-column: 3/5;}
+    .gol{grid-column: 1/5;}
+    
+    .golun img, .golu img, .golumn img, .golum img{width: 60%;}
+    
+    h3 {color: black;}
+    
+    .move a, .left a, .right a{color: white; text-decoration: none; font-size: 20px; text-transform: uppercase; font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";}
+    
+    .move {grid-column: 1/2; background-color: darkslategrey; margin-top: 180px; }
+    .right {grid-column: 2/4; background-color: darkslategrey; margin-top: 180px;}
+    .left{grid-column: 4/5; background-color: darkslategrey; margin-top: 180px;}
+    
+    .rightnav .log {color: blue;}
+    
+    .rightnav .log:hover {color: black;}
+    
+      .left .red{color: red;}
+    
+    .left a:hover, .copyright a:hover, .rightnav a:hover{color: green;}
+    
+    h3{font-size: 25px; text-transform: uppercase; font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";}
+    
+    .font{font-size: 20px; text-transform: uppercase; font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";}
+    
+    .left .act, .rightnav .act{color: black;}
+    
+    
+     #clock { 
+         display: block;/* Styles apply to element with id="clock" */
+  font-size: 20px;;   /* Use a big bold font */
+  background-color: white;             /* on a light bluish-gray background. */
+               /* Surround it with some space */
+     /* and a solid black border */
+ 
+    width: 150px;    
+        height: 40px;
+        grid-column: 1/2;
+        margin-top: -70px;
+        
+}
+    
+    
+    
+    .cardu, .casm, .cigi, .card{grid-column: 1/2;}
+    .cardio, .cardiy, .columbu, .cosh, .corgo{grid-column: 2/3;}
+    .carding, .cardim, .cord, .camel, .chim{grid-column: 3/4;}
+   .cardics, .cardinal, .cash,  .chem{grid-column: 4/5;}
+    
+    
+     #main_image{display: block; grid-column: 1/5; margin-top: -53px;}
+   
+}
+
+
+
+
